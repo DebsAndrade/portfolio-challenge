@@ -1,19 +1,22 @@
 import React from "react";
-import NavigationLogo from "../../assets/image/logo-navigation.svg";
+import styled from "styled-components";
 
-function Navigation() {
+const ListItem = styled.li`
+    display: inline-block;
+    line-height: 4.22vw;
+    padding-inline: 2.29vw;
+`
+
+const Navigation = () => {
     return(
-        <>
-            <img src={NavigationLogo} alt="Navigation logo" />
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Work</li>
-                    <li>ONU</li>
-                </ul>
-            </nav>
-        </>
+        <nav>
+            <ul>
+                <ListItem><a>Home</a></ListItem>
+                <ListItem><a>About</a></ListItem>
+                <ListItem><a>Work</a></ListItem>
+                <ListItem><a>ONU</a></ListItem>
+            </ul>
+        </nav>
     )
 }
 

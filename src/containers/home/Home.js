@@ -1,19 +1,28 @@
 import React from "react";
-import Navigation from "../navigation/Navigation";
 import Email from "../../assets/image/email.svg";
 import Discord from "../../assets/image/discord.svg";
 import GitHub from "../../assets/image/github.svg";
 import Instagram from "../../assets/image/instagram.svg";
 import Linkedin from "../../assets/image/linkedin.svg";
 import Resume from "../../assets/image/resume.svg";
+import Technology from "../../assets/image/technology.svg";
+import Header from "../../components/header/Header";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+`
 
 function Home() {
     return(
-        <>
-            <Navigation />
+        <Wrapper>
+            <Header />
             <div>
                 <h1>Débora Andrade</h1>
                 <h2>Front End Developer</h2>
+                <img src={Technology} alt="Front end Technologies" />
                 <a href="mailto:deboraellenandrade@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={Email} alt="Email logo" />
                 </a>
@@ -33,7 +42,7 @@ function Home() {
                 <img src={Resume} alt="Resume" />
                 </a>
             </div>
-        </>
+        </Wrapper>
     )
 }
 
