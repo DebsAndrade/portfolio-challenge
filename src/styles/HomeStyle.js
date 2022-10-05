@@ -41,7 +41,6 @@ export const ContainerSocialMedia = styled.div`
 
 export const LinkSocialMedia = styled.a`
     padding: 0 0.5vw 1.5vw 0.5vw;
-    color: inherit;
 `
 
 export const ImageSocialMedia = styled.img`

@@ -14,7 +14,7 @@ function Home() {
         <S.Wrapper>
             <Header />
             <S.ContainerHome>
-                <S.H1>Débora Andrade</S.H1>
+                <S.H1>Hi, I am Débora Andrade!</S.H1>
                 <S.H2>Front End Developer</S.H2>
                 <S.TechnologyLogo src={Technology} alt="Front end Technologies" />
             </S.ContainerHome>
