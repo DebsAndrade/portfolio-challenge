@@ -16,6 +16,6 @@ export const GlobalStyle = createGlobalStyle`
         position: absolute;
         top: 0;
         bottom: 0;
-        color: #339081;
+        color: #201C49;
     }
 `

@@ -45,4 +45,9 @@ export const LinkSocialMedia = styled.a`
 
 export const ImageSocialMedia = styled.img`
     width: 3vw;
+    transition: all 0.8s;
+    &:hover {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
 `
