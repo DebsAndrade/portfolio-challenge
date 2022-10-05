@@ -4,7 +4,8 @@ import Navigation from "../navigation/Navigation";
 import styled from "styled-components";
 
 const ImgHeader = styled.img`
-    width: 30px;
+    width: 3.8vw;
+    padding: 1vw;
 `
 
 function Header() {
