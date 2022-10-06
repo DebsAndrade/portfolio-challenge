@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  width : 76.39vw;
-  display : flex;
-  align-items : center;
-  justify-content : center;
-  flex-warp : warp;
-  padding : 2.08vw; 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-warp: warp;
+  padding: 2.08vw; 
 `
 export const Content = styled.div`
   position: relative;
@@ -73,7 +73,6 @@ export const H2 = styled.h2`
 export const Paragraph = styled.p`
   font-size: 1em;
   text-align: justify;
-  margin-bottom: 1.34vw;
 `
 
 export const Container = styled.div`
