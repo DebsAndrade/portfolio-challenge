@@ -5,6 +5,11 @@ export const ListItem = styled.li`
     font-size: 1.25vw;
     line-height: 4vw;
     padding-inline: 0.8vw;
+    &:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
 `
 export const A = styled.a`
     font-size: clamp(1em, 1.88em, 1.25em);
