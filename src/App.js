@@ -69,7 +69,7 @@ const Stack = styled.img`
 `
 const H1 = styled.h1`
   text-align: center;
-  font-size: clamp(2.23em, 2.5vw, 3em);
+  font-size: clamp(2.23em, 0.65em, 3em);
 `
 const H2 = styled.h2`
   font-size: 1.5em;

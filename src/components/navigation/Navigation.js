@@ -9,7 +9,7 @@ const Navigation = () => {
                     <S.A href="#">About</S.A>
                 </S.ListItem>
                 <S.ListItem>
-                    <S.A href="#">Works</S.A>
+                    <S.A href="#">Projects</S.A>
                 </S.ListItem>
                 <S.ListItem>
                     <S.A href="#">ONU</S.A>
