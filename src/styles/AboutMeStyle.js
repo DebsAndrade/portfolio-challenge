@@ -11,7 +11,7 @@ export const Main = styled.main`
 export const Content = styled.div`
   position: relative;
   top: -9.72vw;
-  padding: 0.69vw 1.04vw;
+  padding: -1vw 1.04vw;
   color: #111111;
   text-align: center;
   visibility: hidden;

@@ -16,7 +16,7 @@ function AboutMe() {
               <S.Content>
                 <S.H2>Front End Developer</S.H2>
                 <S.Paragraph>
-                  There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in bookmarksgrove there live the blind texts far from the countries.
+                I'm 27 years old, I'm Brazilian and I live in Lisbon/PT. Graduated in Nutrition Sciences in 2016 and at the beginning of 2022 I decided to make my career migration to the technology area. Come get to know me better on my social media.
                 </S.Paragraph>
                 <SocialMedias />
               </S.Content>
