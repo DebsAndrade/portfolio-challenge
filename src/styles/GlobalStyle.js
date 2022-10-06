@@ -8,13 +8,13 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         text-decoration: none;
         font-family: 'Coming Soon', cursive;
+        color: #003049;
     }
 
     body {
         height: 100vh;
         display: flex;
         justify-content: center;
-        color: #003049;
         background-image linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     }
 `
