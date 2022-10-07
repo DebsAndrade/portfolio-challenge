@@ -16,5 +16,9 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
         background-image linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+
+        @media only screen and (min-width: 300px) and (max-width: 800px) {
+            height: 100%;
+        }
     }
 `
