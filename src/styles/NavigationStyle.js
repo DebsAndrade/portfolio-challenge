@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ListItem = styled.li`
@@ -18,7 +19,7 @@ export const ListItem = styled.li`
         padding-inline: 4.5vw;
     }
 `
-export const A = styled.a`
+export const A = styled(Link)`
     font-size: clamp(1em, 1.88em, 1.25em);
     color: #003049;
     padding-inline: 1.15vw;
