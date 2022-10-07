@@ -2,7 +2,7 @@ import React from "react";
 
 const Onu = () => {
     return(
-        <h1>Em construção...</h1>
+        <h1>Em construção (ONU)...</h1>
     )
 }
 
