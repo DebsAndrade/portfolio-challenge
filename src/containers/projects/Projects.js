@@ -30,6 +30,14 @@ const projectInfos = [
     },
 
     {
+        title: "Pokédex Project",
+        description: "Web application developed on the Pokemon theme to simulate a pokedex (which would basically be a Pokemon Wikipedia), in order to apply an approach to some DOM events, positioning and also practicing the responsiveness of a website.",
+        thumbnail: Pokedex,
+        url: "https://debsandrade.github.io/my-pokedex/",
+        tags: ["HTML5", "CSS3", "JavaScript"]
+    },
+
+    {
         title: "Beats Project",
         description: "Project in HTML5 and CSS3, putting into practice the positioning of images and sections.",
         thumbnail: Beats,
@@ -58,14 +66,6 @@ const projectInfos = [
         description: "A simple login page to study position using the face of FINN animated series, applying positioning approach.",
         thumbnail: FinnLogin,
         url: "https://debsandrade.github.io/projeto-finn/",
-        tags: ["HTML5", "CSS3"]
-    },
-
-    {
-        title: "Pokédex Project",
-        description: "Web application developed on the Pokemon theme to simulate a pokedex (which would basically be a Pokemon Wikipedia), in order to apply an approach to some DOM events, positioning and also practicing the responsiveness of a website.",
-        thumbnail: Pokedex,
-        url: "https://debsandrade.github.io/my-pokedex/",
         tags: ["HTML5", "CSS3"]
     },
 
