@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import * as S from "../../styles/NavigationStyle";
 import AboutMe from "../../containers/aboutme/AboutMe"
 import Projects from "../../containers/projects/Projects"
@@ -7,7 +7,7 @@ import Onu from "../../containers/onu/Onu"
 
 const Navigation = () => {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <S.HeaderNavigation>
                 <ul>
                     <S.ListItem>
@@ -27,7 +27,7 @@ const Navigation = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/onu" element={<Onu />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
