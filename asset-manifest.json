@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-challenge/static/css/main.913d7046.css",
-    "main.js": "/portfolio-challenge/static/js/main.00096ffc.js",
+    "main.js": "/portfolio-challenge/static/js/main.42fefb67.js",
     "static/js/787.372fcdcc.chunk.js": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js",
     "static/media/starwars.png": "/portfolio-challenge/static/media/starwars.8e249be69414f9790959.png",
     "static/media/adalovelace.png": "/portfolio-challenge/static/media/adalovelace.cd93b8f8e5c5e0a42733.png",
@@ -21,11 +21,11 @@
     "static/media/resume.svg": "/portfolio-challenge/static/media/resume.0986e8fcb257bb4efc5ae489071a77bf.svg",
     "index.html": "/portfolio-challenge/index.html",
     "main.913d7046.css.map": "/portfolio-challenge/static/css/main.913d7046.css.map",
-    "main.00096ffc.js.map": "/portfolio-challenge/static/js/main.00096ffc.js.map",
+    "main.42fefb67.js.map": "/portfolio-challenge/static/js/main.42fefb67.js.map",
     "787.372fcdcc.chunk.js.map": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.913d7046.css",
-    "static/js/main.00096ffc.js"
+    "static/js/main.42fefb67.js"
   ]
 }
