@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        height: 100%;
+        height: max(100%,100vh);
         display: flex;
         justify-content: center;
         background-image linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);

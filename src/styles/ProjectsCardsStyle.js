@@ -2,13 +2,9 @@ import styled from "styled-components";
 
 export const ContainerCard = styled.div`
     display: flex;
-    width: calc(100vw - (100vw - 100%));
-    gap: 30px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        width: 100vw;
+        width: 90vw;
     }
 `
 
@@ -50,18 +46,6 @@ export const CardBody = styled.section`
 export const TagBox = styled.div`
     display: flex;
     gap: 5px;
-`
-
-export const TagTech = styled.span`
-    background: red;
-    border-radius: 50px;
-    font-size: 10px;
-    font-weight: 600;
-    margin: 0;
-    color: #fff;
-    padding: 2px 8px;
-    text-transform: uppercase;
-    cursor: pointer;
 `
 
 export const H4 = styled.h4`

@@ -9,11 +9,12 @@ import FinnLogin from "../../assets/image/finnlogin.png";
 import Pokedex from "../../assets/image/pokedex.png";
 import HomeWork from "../../assets/image/home-work.png";
 import AdaLovelace from "../../assets/image/adalovelace.png";
+import styled from "styled-components";
 
 const projectInfos = [
 
     {
-        name: "Recipes Project",
+        title: "Recipes Project",
         description: "Project developed in partnership with a colleague to train pair-programming practices using GitHub repositories.",
         thumbnail: Recipes,
         url: "https://debsandrade.github.io/pair-programming/",
@@ -21,7 +22,7 @@ const projectInfos = [
     },
 
     {
-        name: "Star Wars Project",
+        title: "Star Wars Project",
         description: "Website developed with a Star Wars theme to simulate the promotion of an online game of the franchise, with the objective of applying a positioning approach and practicing the responsiveness of a website.",
         thumbnail: StarWars,
         url: "https://debsandrade.github.io/final-star-wars-project/",
@@ -29,7 +30,7 @@ const projectInfos = [
     },
 
     {
-        name: "Beats Project",
+        title: "Beats Project",
         description: "Project in HTML5 and CSS3, putting into practice the positioning of images and sections.",
         thumbnail: Beats,
         url: "https://debsandrade.github.io/projeto-beat/",
@@ -37,7 +38,7 @@ const projectInfos = [
     },
 
     {
-        name: "Avengers Website",
+        title: "Avengers Website",
         description: "Project of an Avengers Website, showing about the characters using knowledge about positioning of boxes.",
         thumbnail: AvengersProject,
         url: "https://debsandrade.github.io/the-avengers/",
@@ -45,7 +46,7 @@ const projectInfos = [
     },
 
     {
-        name: "Project Time of Day",
+        title: "Project Time of Day",
         description: "Designing a website to practice positioning and JavaScript technology, applying logic to know the time of day when we open the site.",
         thumbnail: TimeOfDay,
         url: "https://debsandrade.github.io/hora-do-dia/",
@@ -53,7 +54,7 @@ const projectInfos = [
     },
 
     {
-        name: "FINN login page",
+        title: "FINN login page",
         description: "A simple login page to study position using the face of FINN animated series, applying positioning approach.",
         thumbnail: FinnLogin,
         url: "https://debsandrade.github.io/projeto-finn/",
@@ -61,7 +62,7 @@ const projectInfos = [
     },
 
     {
-        name: "Pokédex Project",
+        title: "Pokédex Project",
         description: "Web application developed on the Pokemon theme to simulate a pokedex (which would basically be a Pokemon Wikipedia), in order to apply an approach to some DOM events, positioning and also practicing the responsiveness of a website.",
         thumbnail: Pokedex,
         url: "https://debsandrade.github.io/my-pokedex/",
@@ -69,7 +70,7 @@ const projectInfos = [
     },
 
     {
-        name: "Home Work",
+        title: "Home Work",
         description: "Project in HTML5 and CSS3 for personal studies, putting into practice image positioning, use of animations, positioning of boxes and table/form construction.",
         thumbnail: HomeWork,
         url: "https://debsandrade.github.io/home-work-debora/",
@@ -77,7 +78,7 @@ const projectInfos = [
     },
 
     {
-        name: "Ada Lovelace Website",
+        title: "Ada Lovelace Website",
         description: "My first project to create a website about Ada Lovelace. In it I put into practice everything I learned initially about the main technologies of the front end.",
         thumbnail: AdaLovelace,
         url: "https://debsandrade.github.io/siteada-debora/",
@@ -86,19 +87,26 @@ const projectInfos = [
 
 ];
 
+const ContainerProjects = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+`
+
 const Projects = () => {
     return(
-        <>
+        <ContainerProjects>
             {projectInfos.map(project => 
                 <ProjectCard
-                    title={project.name}
+                    title={project.title}
                     description={project.description}
                     url={project.url}
                     thumbnail={project.thumbnail}
                     tags={project.tags}
                 />
             )}
-        </>
+        </ContainerProjects>
     )
 }
 

@@ -8,8 +8,6 @@ export const ListItem = styled.li`
     padding-inline: 0.8vw;
 
     &:hover {
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
         transform: scale(1.3);
     }
 
@@ -28,6 +26,8 @@ export const A = styled(Link)`
 export const HeaderNavigation = styled.nav`
     display: flex;
     justify-content: end;
+    padding-inline: 1.5vw;
+    margin-bottom: 4vw;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
         padding-top: 1.5vw;
