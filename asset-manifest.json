@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-challenge/static/css/main.913d7046.css",
+    "main.js": "/portfolio-challenge/static/js/main.00096ffc.js",
+    "static/js/787.372fcdcc.chunk.js": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js",
+    "static/media/starwars.png": "/portfolio-challenge/static/media/starwars.8e249be69414f9790959.png",
+    "static/media/adalovelace.png": "/portfolio-challenge/static/media/adalovelace.cd93b8f8e5c5e0a42733.png",
+    "static/media/recipes.png": "/portfolio-challenge/static/media/recipes.b445c0ed272af1eaa723.png",
+    "static/media/avengers.png": "/portfolio-challenge/static/media/avengers.b891f985d219f5daa373.png",
+    "static/media/pokedex.png": "/portfolio-challenge/static/media/pokedex.97e1d6eeb4ab4078ba1f.png",
+    "static/media/beat.png": "/portfolio-challenge/static/media/beat.8994b481771c9d76b75f.png",
+    "static/media/timeofday.png": "/portfolio-challenge/static/media/timeofday.01ffc28820288e54f90a.png",
+    "static/media/finnlogin.png": "/portfolio-challenge/static/media/finnlogin.a0a9bb04b038cc205e6c.png",
+    "static/media/home-work.png": "/portfolio-challenge/static/media/home-work.fe000950b7111be26332.png",
+    "static/media/programmer.svg": "/portfolio-challenge/static/media/programmer.7d3ee9c87551b82b348d75a7ad3638c7.svg",
+    "static/media/github.svg": "/portfolio-challenge/static/media/github.6e1033f11a1b972cd9606f4c1038b506.svg",
+    "static/media/linkedin.svg": "/portfolio-challenge/static/media/linkedin.a5c8b29bc2592106be47a84cf20afa70.svg",
+    "static/media/email.svg": "/portfolio-challenge/static/media/email.92d95167146e9013f91de1ec2737056f.svg",
+    "static/media/instagram.svg": "/portfolio-challenge/static/media/instagram.9c427c20c9f80f4dbd0f1b26ec8cd525.svg",
+    "static/media/discord.svg": "/portfolio-challenge/static/media/discord.09cc0861771e1bb42fee9fdd3fa13a15.svg",
+    "static/media/resume.svg": "/portfolio-challenge/static/media/resume.0986e8fcb257bb4efc5ae489071a77bf.svg",
+    "index.html": "/portfolio-challenge/index.html",
+    "main.913d7046.css.map": "/portfolio-challenge/static/css/main.913d7046.css.map",
+    "main.00096ffc.js.map": "/portfolio-challenge/static/js/main.00096ffc.js.map",
+    "787.372fcdcc.chunk.js.map": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.913d7046.css",
+    "static/js/main.00096ffc.js"
+  ]
+}
