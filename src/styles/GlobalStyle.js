@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        font-family: 'Coming Soon', cursive;
+        font-family: 'Patrick Hand', cursive;
         color: ${({ theme }) => theme.text};
     }
 

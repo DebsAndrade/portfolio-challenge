@@ -31,7 +31,7 @@ const projectInfos = [
 
     {
         title: "Pokédex Project",
-        description: "Web application developed on the Pokemon theme to simulate a pokedex (which would basically be a Pokemon Wikipedia), in order to apply an approach to some DOM events, positioning and also practicing the responsiveness of a website.",
+        description: "Web application developed on the Pokemon theme to simulate a pokedex, in order to apply an approach to some DOM events, positioning and also practicing the responsiveness of a website.",
         thumbnail: Pokedex,
         url: "https://debsandrade.github.io/my-pokedex/",
         tags: ["HTML5", "CSS3", "JavaScript"]

@@ -1,20 +1,27 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+export const UnorderedList = styled.ul`
+    display: flex;
+    align-items: center;
+`
+
 export const ListItem = styled.li`
     display: inline-block;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
     line-height: 4vw;
     padding-inline: 0.8vw;
 
-    &:hover {
-        transform: scale(1.3);
+    @media only screen and (min-width: 800px) {
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        font-size: 5vw;
+        font-size: 7vw;
         line-height: 12vw;
-        padding-inline: 4.5vw;
+        padding-inline: 5.5vw;
     }
 `
 

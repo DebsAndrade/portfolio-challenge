@@ -4,7 +4,7 @@ export const ContainerSocialMedia = styled.div`
     text-align: right;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        margin-top: 5vw;
+        margin-top: 7vw;
         text-align: center;
     }
 `

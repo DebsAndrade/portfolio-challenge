@@ -8,16 +8,16 @@ const ToggleContainer = styled.button`
   display: flex;
   font-size: 0.5rem;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
-  padding: 0.5rem;
+  padding: 0.2rem 0.3rem;
   position: relative;
-  width: 8rem;
-  height: 4rem;
+  width: 4rem;
+  height: 2rem;
 
   svg {
     height: auto;
-    width: 2.5rem;
+    width: 1.5rem;
     transition: all 0.3s linear;
     
     // sun icon

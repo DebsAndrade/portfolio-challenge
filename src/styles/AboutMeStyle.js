@@ -16,7 +16,7 @@ export const Content = styled.div`
   position: relative;
   top: -9.72vw;
   padding: -1vw 1.04vw;
-  color: #111111;
+  color: ${({ theme }) => theme.text};
   text-align: center;
   visibility: hidden;
   opacity: 0;
@@ -33,7 +33,7 @@ export const CardContainer = styled.div`
   position: relative;
   width: 43.75vw;
   height: 22.92vw;
-  background-color: #FFF;
+  background-color: ${({ theme }) => theme.backgroundCards};
   margin: 2.08vw 0.69vw;
   padding: 1.39vw 1.04vw;
   display: flex;
@@ -41,6 +41,7 @@ export const CardContainer = styled.div`
   box-shadow: 0 0.35vw 1.39vw rgba(0,0,0,0.5);
   transition: 0.3s ease-in-out;
   border-radius: 1.04vw;
+  border: ${({ theme }) => theme.borderCard};
 
   @media only screen and (min-width: 900px) {
     &:hover {
@@ -69,12 +70,13 @@ export const Cover = styled.div`
   box-shadow: 0 0.35vw 1.39vw rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 1.04vw;
-  background-color: white;
+  background-color: ${({ theme }) => theme.backgroundCards};
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.69vw;
   padding-top: 0.69vw;
+  border: ${({ theme }) => theme.borderCard};
 
   @media only screen and (min-width: 300px) and (max-width: 800px) {
     width: 80vw;
@@ -84,7 +86,7 @@ export const Cover = styled.div`
 `
 export const Stack = styled.img`
   max-width: 18.75vw;
-  background-color: white;
+  background-color: ${({ theme }) => theme.backgroundCards};
 
   @media only screen and (min-width: 300px) and (max-width: 800px) {
     max-width: 30.75vw;
@@ -92,24 +94,28 @@ export const Stack = styled.img`
 `
 export const H1 = styled.h1`
   text-align: center;
-  font-size: clamp(2.23em, 0.65em, 3em);
+  font-size: clamp(2.23em, 5em, 3em);
+
+  @media only screen and (min-width: 300px) and (max-width: 800px) {
+    font-size: 2.2em;
+  }
 `
 export const H2 = styled.h2`
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-bottom: 0.69vw;
 
   @media only screen and (min-width: 300px) and (max-width: 800px) {
-    font-size: 1.6em;
+    font-size: 2em;
   }
 `
 export const Paragraph = styled.p`
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: justify;
 
   @media only screen and (min-width: 300px) and (max-width: 800px) {
-    font-size: 1.1em;
+    font-size: 1.6em;
     padding-inline: 3vw;
-    line-height: 2em;
+    line-height: 1.2em;
   }  
 `
 

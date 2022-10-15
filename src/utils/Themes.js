@@ -3,11 +3,15 @@ export const lightTheme = {
     text: '#003049',
     toggleBorder: '#FFF',
     toggleGradient: 'linear-gradient(#39598A, #79D7ED)',
+    backgroundCards: '#fff',
+    borderCard: '1px solid #efefef',
   }
   
   export const darkTheme = {
-    body: '#363537',
-    text: '#FAFAFA',
+    body: 'linear-gradient(-20deg, #5e5368 0%, #000000 100%, #000000 100%)',
+    text: '#eee',
     toggleBorder: '#6B8096',
     toggleGradient: 'linear-gradient(#091236, #1E215D)',
+    backgroundCards: '#100007',
+    borderCard: '1px solid #322229',
   }

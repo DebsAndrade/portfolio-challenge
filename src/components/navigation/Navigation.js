@@ -9,7 +9,7 @@ const Navigation = ({theme, toggleTheme}) => {
     return(
         <HashRouter>
             <S.HeaderNavigation>
-                <ul>
+                <S.UnorderedList>
                     <S.ListItem>
                         <S.A to="/">About</S.A>
                     </S.ListItem>
@@ -19,7 +19,7 @@ const Navigation = ({theme, toggleTheme}) => {
                     <S.ToggleItem>
                         <Toggle theme={theme} toggleTheme={toggleTheme} />
                     </S.ToggleItem>
-                </ul>
+                </S.UnorderedList>
             </S.HeaderNavigation>
             
             <Routes>

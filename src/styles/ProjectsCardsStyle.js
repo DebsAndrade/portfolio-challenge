@@ -10,7 +10,7 @@ export const ContainerCard = styled.div`
 
 export const Card = styled.div`
     margin: 15px;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.backgroundCards};
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -50,8 +50,18 @@ export const TagBox = styled.div`
 
 export const H4 = styled.h4`
     margin-block: 10px;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        font-size: 1em;
+        
+    }
 `
 
 export const CardParagraph = styled.p`
-    font-size: 13px;
+    font-size: 1.3vw;
+
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
+        font-size: 1.1em;
+        text-align: justify;
+    }
 `
