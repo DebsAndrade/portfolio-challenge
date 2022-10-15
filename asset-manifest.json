@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-challenge/static/css/main.913d7046.css",
-    "main.js": "/portfolio-challenge/static/js/main.83c6e61f.js",
+    "main.css": "/portfolio-challenge/static/css/main.87711d78.css",
+    "main.js": "/portfolio-challenge/static/js/main.ee5a3963.js",
     "static/js/787.372fcdcc.chunk.js": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js",
     "static/media/starwars.png": "/portfolio-challenge/static/media/starwars.8e249be69414f9790959.png",
     "static/media/adalovelace.png": "/portfolio-challenge/static/media/adalovelace.cd93b8f8e5c5e0a42733.png",
@@ -17,15 +17,17 @@
     "static/media/linkedin.svg": "/portfolio-challenge/static/media/linkedin.a5c8b29bc2592106be47a84cf20afa70.svg",
     "static/media/email.svg": "/portfolio-challenge/static/media/email.92d95167146e9013f91de1ec2737056f.svg",
     "static/media/instagram.svg": "/portfolio-challenge/static/media/instagram.9c427c20c9f80f4dbd0f1b26ec8cd525.svg",
-    "static/media/discord.svg": "/portfolio-challenge/static/media/discord.09cc0861771e1bb42fee9fdd3fa13a15.svg",
+    "static/media/discord.svg": "/portfolio-challenge/static/media/discord.1ab6cd219999c229d09589baf2e3774a.svg",
     "static/media/resume.svg": "/portfolio-challenge/static/media/resume.0986e8fcb257bb4efc5ae489071a77bf.svg",
+    "static/media/sun.svg": "/portfolio-challenge/static/media/sun.9abac4b0500e309b346737f755e40939.svg",
     "index.html": "/portfolio-challenge/index.html",
-    "main.913d7046.css.map": "/portfolio-challenge/static/css/main.913d7046.css.map",
-    "main.83c6e61f.js.map": "/portfolio-challenge/static/js/main.83c6e61f.js.map",
+    "static/media/moon.svg": "/portfolio-challenge/static/media/moon.d737d7365e6809abf5a69f8bb2dde7a8.svg",
+    "main.87711d78.css.map": "/portfolio-challenge/static/css/main.87711d78.css.map",
+    "main.ee5a3963.js.map": "/portfolio-challenge/static/js/main.ee5a3963.js.map",
     "787.372fcdcc.chunk.js.map": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.913d7046.css",
-    "static/js/main.83c6e61f.js"
+    "static/css/main.87711d78.css",
+    "static/js/main.ee5a3963.js"
   ]
 }
