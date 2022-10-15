@@ -3,8 +3,9 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import * as S from "../../styles/NavigationStyle";
 import AboutMe from "../../containers/aboutme/AboutMe"
 import Projects from "../../containers/projects/Projects"
+import Toggle from "../toggle/Toggle";
 
-const Navigation = () => {
+const Navigation = ({theme, toggleTheme}) => {
     return(
         <HashRouter>
             <S.HeaderNavigation>
@@ -15,6 +16,9 @@ const Navigation = () => {
                     <S.ListItem>
                         <S.A to="/projects">Projects</S.A>
                     </S.ListItem>
+                    <S.ToggleItem>
+                        <Toggle theme={theme} toggleTheme={toggleTheme} />
+                    </S.ToggleItem>
                 </ul>
             </S.HeaderNavigation>
             

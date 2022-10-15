@@ -17,9 +17,15 @@ export const ListItem = styled.li`
         padding-inline: 4.5vw;
     }
 `
+
+export const ToggleItem = styled.li`
+    display: inline-block;
+    padding-inline: 0.8vw;
+`
+
 export const A = styled(Link)`
     font-size: clamp(1em, 1.88em, 1.25em);
-    color: #003049;
+    color: ${({ theme }) => theme.text};
     padding-inline: 1.15vw;
 `
 

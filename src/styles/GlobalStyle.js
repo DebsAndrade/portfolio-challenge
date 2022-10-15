@@ -8,14 +8,20 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         text-decoration: none;
         font-family: 'Coming Soon', cursive;
-        color: #003049;
+        color: ${({ theme }) => theme.text};
+    }
+
+    *::after,
+    *::before {
+      box-sizing: border-box;
     }
 
     body {
         height: max(100%,100vh);
         display: flex;
         justify-content: center;
-        background-image linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+        background-image: ${({ theme }) => theme.body};
+        transition: all 0.25s linear;
 
         @media only screen and (min-width: 300px) and (max-width: 800px) {
             height: 100%;
