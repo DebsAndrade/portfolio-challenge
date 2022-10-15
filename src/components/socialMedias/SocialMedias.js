@@ -1,10 +1,10 @@
 import React from "react"
-import Email from "../../assets/image/email.svg";
-import Discord from "../../assets/image/discord.svg";
-import GitHub from "../../assets/image/github.svg";
-import Instagram from "../../assets/image/instagram.svg";
-import Linkedin from "../../assets/image/linkedin.svg";
-import Resume from "../../assets/image/resume.svg";
+import { ReactComponent as Email } from "../../assets/image/email.svg";
+import { ReactComponent as Discord } from "../../assets/image/discord.svg";
+import { ReactComponent as GitHub } from "../../assets/image/github.svg";
+import { ReactComponent as Instagram } from "../../assets/image/instagram.svg";
+import { ReactComponent as Linkedin } from "../../assets/image/linkedin.svg";
+import { ReactComponent as Resume } from "../../assets/image/resume.svg";
 import * as S from "../../styles/SocialMediasStyle"
 
 const hrefMap = Object.freeze({
@@ -17,25 +17,26 @@ const hrefMap = Object.freeze({
 })
 
 const SocialMedias = () => {
+
     return (
         <S.ContainerSocialMedia>
             <S.LinkSocialMedia href={hrefMap.email} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={Email} alt="Email logo" />
+                <Email />
             </S.LinkSocialMedia>
             <S.LinkSocialMedia href={hrefMap.discord} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={Discord} alt="Discord logo" />
+                <Discord />
             </S.LinkSocialMedia>
             <S.LinkSocialMedia href={hrefMap.github} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={GitHub} alt="GitHub logo" />
+                <GitHub />
             </S.LinkSocialMedia>
             <S.LinkSocialMedia href={hrefMap.instagram} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={Instagram} alt="Instagram logo" />
+                <Instagram />
             </S.LinkSocialMedia>
             <S.LinkSocialMedia href={hrefMap.linkedin} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={Linkedin} alt="Linkedin logo" />
+                <Linkedin />
             </S.LinkSocialMedia>
             <S.LinkSocialMedia href={hrefMap.resume} target="_blank" rel="noopener noreferrer">
-                <S.ImageSocialMedia src={Resume} alt="Resume" />
+                <Resume />
             </S.LinkSocialMedia>
         </S.ContainerSocialMedia>
     )

@@ -5,6 +5,7 @@ export const lightTheme = {
     toggleGradient: 'linear-gradient(#39598A, #79D7ED)',
     backgroundCards: '#fff',
     borderCard: '1px solid #efefef',
+    colorIcon: '#000000',
   }
   
   export const darkTheme = {
@@ -14,4 +15,5 @@ export const lightTheme = {
     toggleGradient: 'linear-gradient(#091236, #1E215D)',
     backgroundCards: '#100007',
     borderCard: '1px solid #322229',
+    colorIcon: '#ffffff',
   }
