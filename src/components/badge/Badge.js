@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 const Tag = styled.span`
     border-radius: 50px;
-    font-size: 10px;
+    font-size: 0.8em;
     font-weight: 600;
     margin: 0;
     color: #fff;

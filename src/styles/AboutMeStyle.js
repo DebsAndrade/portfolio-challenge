@@ -7,10 +7,6 @@ export const Main = styled.main`
   justify-content: center;
   flex-warp: warp;
   padding: 2.08vw;
-
-  @media only screen and (min-width: 300px) and (max-width: 800px) {
-    height: 100vw;
-  }
 `
 export const Content = styled.div`
   position: relative;

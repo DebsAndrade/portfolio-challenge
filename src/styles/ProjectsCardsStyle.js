@@ -36,12 +36,7 @@ export const CardBody = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 5px 20px;
-    height: 150px;
-
-    @media only screen and (min-width: 300px) and (max-width: 800px) {
-        height: 200px;
-    }
+    padding: 30px 15px 15px 15px;
 `
 
 export const TagBox = styled.div`
@@ -53,8 +48,7 @@ export const H4 = styled.h4`
     margin-block: 10px;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        font-size: 1em;
-        
+        font-size: 1.6em;
     }
 `
 
@@ -62,7 +56,7 @@ export const CardParagraph = styled.p`
     font-size: 1.3vw;
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
-        font-size: 1.1em;
+        font-size: 1.3em;
         text-align: justify;
     }
 `
