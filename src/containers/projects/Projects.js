@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../../components/projectCard/ProjectCard";
+import OnuOds from "../../assets/image/onu-ods.png";
 import Recipes from "../../assets/image/recipes.png";
 import StarWars from "../../assets/image/starwars.png";
 import Beats from "../../assets/image/beat.png";
@@ -12,6 +13,14 @@ import AdaLovelace from "../../assets/image/adalovelace.png";
 import styled from "styled-components";
 
 const projectInfos = [
+
+    {
+        title: "ONU-ODS Project",
+        description: "Sustainable Development Goals project, putting into practice positioning and responsiveness.",
+        thumbnail: OnuOds,
+        url: "https://debsandrade.github.io/onu-ods/",
+        tags: ["HTML5", "CSS3", "JavaScript", "ReactJS"]
+    },
 
     {
         title: "Recipes Project",
