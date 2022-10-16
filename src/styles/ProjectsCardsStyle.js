@@ -16,6 +16,7 @@ export const Card = styled.div`
     overflow: hidden;
     width: 600px;
     transition: all 0.2s;
+    border: ${({ theme }) => theme.borderCard};
 
     &:hover {
         box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
